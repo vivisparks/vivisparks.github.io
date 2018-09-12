@@ -602,7 +602,7 @@ pre .deletion {
 .entry-content video {
   max-width: 100%;
   height: auto;
-  display: block;
+  display: inline;
   margin: auto;
 }
 .entry-content a[title*="Flickr"] img {
