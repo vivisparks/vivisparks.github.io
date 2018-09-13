@@ -373,7 +373,6 @@ pre .deletion {
   content: ".";
 }
 .blog-title {
-  float: left;
   display: inline-block;
   font-size: 120%;
   font-weight: bold;
