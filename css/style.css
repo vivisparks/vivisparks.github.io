@@ -373,7 +373,7 @@ pre .deletion {
   content: ".";
 }
 .blog-title {
-  float: left;
+  // float: left;
   display: inline-block;
   font-size: 120%;
   font-weight: bold;
@@ -435,13 +435,32 @@ pre .deletion {
 .nav li img {
   vertical-align: middle;
 }
-.nav a {
-  font-weight: bold;
-  color: #4f5759;
+
+//.nav a {
+//  font-weight: bold;
+//  color: #4f5759;
+//}
+
+//.nav a:hover {
+//  color: #33a6b8;
+//}
+
+.nav-home a {
+ color: #f28b7a;
 }
-.nav a:hover {
-  color: #33a6b8;
+
+.nav-arch a {
+ color: #fdeba9;
 }
+
+.nav-twi a {
+ color: #d9eb52;
+}
+
+.nav-icon a {
+ color: #8ac7de;
+}
+
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
