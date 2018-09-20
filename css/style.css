@@ -178,7 +178,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #222;
+  color: #8ac7de;
   text-decoration: none;
 }
 h1 a:hover,
@@ -187,7 +187,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-  color: #222;
+  color: #8ac7de;
 }
 pre,
 code {
@@ -373,6 +373,7 @@ pre .deletion {
   content: ".";
 }
 .blog-title {
+  float: left;
   display: inline-block;
   font-size: 120%;
   font-weight: bold;
