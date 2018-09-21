@@ -119,11 +119,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a {
-  color: #33a6b8;
+  color: #00b7d1;
   text-decoration: none;
 }
 a:hover {
-  color: #2a8998;
+  color: #dbf0f7;
 }
 strong,
 b {
@@ -413,6 +413,7 @@ pre .deletion {
   text-transform: uppercase;
   float: right;
   position: relative;
+  font-weight: bold;
 }
 .nav ul {
   display: block;
@@ -443,23 +444,20 @@ pre .deletion {
 //  color: #33a6b8;
 //}
 
-.nav-home a {
+.nav-home {
  color: #f26b7a;
 }
 
-.nav-arch a {
+.nav-arch {
  color: #fdeba9;
 }
 
-.nav-twi a {
+.nav-twi {
  color: #d9eb52;
 }
 
-.nav-icon a {
- color: #8ac7de;
-}
-
 .nav-icon {
+  color: #8ac7de;
   font-family: FontAwesome;
   text-align: center;
   font-size: 100%;
